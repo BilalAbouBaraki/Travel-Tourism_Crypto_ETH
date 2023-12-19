@@ -1,0 +1,120 @@
+.header-container
+{
+  background-color:#00f;
+  background-image:url('The_header_Design\ \(2\).png');
+  padding:20px;
+  height:140px;
+  background-size:contain
+}
+.logo-nav-container
+{display:flex;
+  justify-content:space-between;
+  align-items:center
+}
+.logo-container
+{display:flex;
+  align-items:center
+}
+.logo-container img
+{height:140px;
+  width:200px;
+  image-resolution:inherit;
+  padding-bottom:40px
+}
+.nav-container nav
+{display:flex;
+  justify-content:center;
+  align-items:center
+}
+.nav-container nav a
+{color:#242361;
+  text-decoration:none;
+  padding:10px 20px;
+  font-family:cursive;
+  margin:0 10px;
+  font-size:large;
+  font-weight:500
+}
+.nav-container nav a:hover
+{box-shadow:2px;
+  border-style:groove;
+  border-radius:50px;
+  background-color:#01018b;-o-transition:.1s;
+  -webkit-transition:.1s;
+  -moz-transition:.1s;
+  -ms-transition:.1s;
+  transition:.1s;
+  -o-border-radius:50px;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  border-radius:2px;border:#0202cc solid;
+  color:#fff
+}
+.Other-Container
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;padding-bottom:50px
+}
+.Account_Buttons
+{
+  font-size:large;
+  font-weight:500;
+  background:0 0;
+  border:none;
+  color:#242361;
+  text-decoration:none;
+  padding:10px 20px;
+  font-family:cursive;
+  margin:0 10px;
+  -o-border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px
+}
+.Other-Container .other_pics
+{
+  width:40px;
+  height:40px;
+  margin:0 10px
+}.Other-Container button
+{
+  display:inline-block
+}
+.Account_Buttons:hover
+{
+  box-shadow:2px;
+  border-style:groove;
+  border-radius:50px solid none;
+  background-color:#01018b;
+  -o-transition:.1s;
+  -webkit-transition:.1s;
+  -moz-transition:.1s;
+  -ms-transition:.1s;
+  transition:.1s;
+  -o-border-radius:50px solid none;
+  -webkit-border-radius:50px solid none;
+  -moz-border-radius:50px solid none;
+  -ms-border-radius:50px solid none;
+  border-radius:2px;
+  border:#0202cc solid;
+  color:#fff
+}
+.Account_Buttons button
+{
+  background:0 0;
+  border:none;
+  color:#fff;
+  padding:15px 32px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:16px
+}
+
+/*Footer Part*/
+.footer-container ul{
+  list-style-type: none;
+}

@@ -1,0 +1,155 @@
+/*Header*/
+.header-container {
+  background-color: blue;
+  background-image: url('./The_header_Design\ \(2\).png');
+  padding: 20px;
+  height: 140px;
+  background-size:contain;
+}
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-container img{
+  height: 140px;
+  width: 200px;
+  image-resolution:inherit;
+  padding-bottom: 40px;
+}
+
+.nav-container nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container nav a{
+  /*background-color: blue;*/
+  color: rgb(36, 35, 97);
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: cursive;
+  margin: 0 10px;
+  font-size: large;
+  font-weight: 500;
+}
+.nav-container nav a:hover {
+  box-shadow: 2px;
+  border-style: groove;
+  border-radius: 50px;
+  background-color: rgb(1, 1, 139);
+  -o-transition: 100ms;
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -ms-transition: 100ms;
+  transition: 100ms;
+  -o-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 2px;
+  border: rgb(2, 2, 204) solid;
+  color: white;
+}
+.Other-Container{
+ display: flex;
+ justify-content: space-between;
+align-items: end;
+padding-bottom: 50px;
+}
+.Account_Buttons{
+  font-size: large;
+  font-weight: 500;
+  background: none;
+  border: none;
+  color: rgb(36, 35, 97);
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: cursive;
+  margin: 0 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.Other-Container .other_pics{
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+.Other-Container button{
+  display: inline-block;
+}
+.Account_Buttons:hover{
+  box-shadow: 2px;
+  border-style: groove;
+  border-radius: 50px solid none;
+  background-color: rgb(1, 1, 139);
+  -o-transition: 100ms;
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -ms-transition: 100ms;
+  transition: 100ms;
+  -o-border-radius: 50px solid none;
+  -webkit-border-radius: 50px solid none;
+  -moz-border-radius: 50px solid none;
+  -ms-border-radius: 50px solid none;
+  border-radius: 2px;
+  border: rgb(2, 2, 204) solid;
+  color: white;
+}
+.Account_Buttons button{
+  background: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/*Hero Section*/
+.hero_section{
+  padding-top: 500px;
+  background-image: url('./Egypt.png');
+  background-size: cover;
+  background-position: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.Heading_section{
+  max-width: 800px;
+  align-items: center;
+  color:cornsilk;
+  margin: auto;
+  text-align: center;
+
+}
+.form_part{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-size: auto;
+  background-color: cornsilk;
+  display: block;
+}
+.form_part form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.form_part label{
+  background-color: cornsilk;
+  margin: 10px;
+}
